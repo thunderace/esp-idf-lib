@@ -16,6 +16,8 @@
 
 ESP_EVENT_DEFINE_BASE(RE_EVENT);
 
+// esp_event does not exists in ESP8266_RTOS_SDK
+
 #define MUTEX_TIMEOUT 10
 
 #ifdef CONFIG_RE_BTN_PRESSED_LEVEL_0
