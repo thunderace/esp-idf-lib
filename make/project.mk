@@ -1,3 +1,2 @@
-MKFILE_PATH := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
-EXTRA_COMPONENT_DIRS := $(MKFILE_PATH)/components
+EXTRA_COMPONENT_DIRS := $(IDF_LIBS)/components
 EXCLUDE_COMPONENTS := max7219 mcp23x17
